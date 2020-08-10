@@ -1,5 +1,5 @@
 class Solution:
-    def titleToNumber(self, s: str) -> int:
+    def titleToNumber(self, s):
         output=0
         for i in range(len(s)):
             output+=26**(len(s)-i-1) * (ord(s[i])-ord('A') + 1)
