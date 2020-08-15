@@ -10,6 +10,7 @@ Start from the beginning,
 [[1,2], [2,3]]-> No overlap here, we can keep both. now the "most recent interval" is [2,3]
 [[2,3],[3,4]] -> No overlap here, we can keep both. now the "most recent interval" is [3,4]
 We can fit 3 intervals without overlap, so we return len(s)-3=4-3=1
+
 '''
 
 
