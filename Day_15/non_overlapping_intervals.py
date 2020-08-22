@@ -17,6 +17,8 @@ We can fit 3 intervals without overlap, so we return len(s)-3=4-3=1
 
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
+        if not intervals:
+            return 0
         intervals.sort()
         non_overlaps=0
         recent_interval=intervals[0][0]-1
